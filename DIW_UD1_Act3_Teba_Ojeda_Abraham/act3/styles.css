@@ -1,0 +1,117 @@
+p {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: #2e252e;
+}
+
+header{
+    background-color: #030000;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.menu .material-symbols-outlined{
+    font-size: 50px;
+    color: #e8ebeb;
+    padding: 10%;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 15%;
+    padding-top: 1%;
+}
+
+.rrss {
+    color: #e8ebeb;
+    cursor: pointer;
+    padding-top: 0.5%;
+    text-align: right;
+}
+
+.rrss .fa-instagram{
+    font-size: 25px;
+    padding: 11%;
+}
+
+.rrss .fa-x-twitter{
+    font-size: 25px;
+    padding: 1%;
+}
+
+.imagenAncho{
+    height: 400px;
+}
+
+.imagenAncho img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 32%;
+}
+
+.imgTextos{
+    margin-top: 4%;
+}
+
+.imgTextos h1{
+    font-size: 2em;
+}
+
+.imgTextos h1{
+    text-align: center;
+    color: #e8ebeb;
+    margin-bottom: 3%;
+}
+
+.bloqueTexto {
+    max-width: 1200px;
+    color: #e8ebeb;
+    text-align: center justify;
+    font-size: 18px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+footer {
+    background-color: #030000;
+    color: #e8ebeb;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #e8ebeb;
+}
+
+footer h4 {
+    font-size: 18px;
+    padding-bottom: 1.5%;
+}
+
+.firmaFooter {
+    background-color: #313131;
+    padding-top: 1%;
+}
+
+hr {
+    margin-top: 1%;
+    color: #e8ebeb;
+}

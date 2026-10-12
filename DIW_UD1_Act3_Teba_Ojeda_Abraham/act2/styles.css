@@ -1,0 +1,163 @@
+p {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    margin: 0px;
+    padding: 0%;
+    background-color: #2e252e;
+}
+
+header{
+    background-color: #030000;
+    width: 100%;
+    float: left;
+}
+
+.menu{
+    width: 25%;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.menu .material-symbols-outlined{
+    font-size: 50px;
+    color: #e8ebeb;
+    padding: 10%;
+}
+
+.logo{
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+.logo img{
+    width: 15%;
+}
+
+.rrss {
+    width: 25%;
+    float: left;
+    color: #e8ebeb;
+    display: block;
+    text-align: right;
+    cursor: pointer;
+    padding-top: 0.5%;
+}
+
+.rrss .fa-instagram{
+    font-size: 25px;
+    padding: 11%;
+}
+
+.rrss .fa-x-twitter{
+    font-size: 25px;
+    padding: 1%;
+}
+
+.imagenAncho{
+    width: 100%;
+    height: 400px;
+    display: block;
+    float: left;
+}
+
+.imagenAncho img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 32%;
+}
+
+.imgTextos{
+    width: 100%;
+    display: block;
+    float: left;
+    margin-top: 3%;
+}
+
+.foto1{
+    width: 50%;
+    float: left;
+}
+
+.foto2{
+    width: 50%;
+    float: left;
+}
+
+.imgTextos img{
+    width: 100%;
+    display: block;
+}
+
+.imgTextos h1{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    color: #e8ebeb;
+}
+
+.bloqueTexto {
+    display: block;
+    float: left;
+    max-width: 1200px;
+    width: 50%;
+    margin: 3% 25% 3% 25%;
+    color: #e8ebeb;
+    text-align: justify;
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: left;
+    background-color: #030000;
+    color: #e8ebeb;
+}
+
+.columnasFooter {
+    width: 100%;
+    height: 80%;
+    display: block;
+    float: left;
+}
+
+.columna{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.firmaFooter {
+    width: 100%;
+    height: 20%;
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: #313131;
+}
+
+.columna a{
+    text-decoration: none;
+    color: #e8ebeb;
+}
+
+hr {
+    margin-top: 10%;
+}

@@ -1,0 +1,180 @@
+p {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e252e; /*colores para probar: #030000 , #2e252e */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cabecera {
+  background-color: #030000;
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 150px;
+  display: block;
+}
+
+a {
+  color: #e8ebeb;
+  text-decoration: none;
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.menuHeader {
+  margin-left: auto;
+  margin-right: 90px;
+}
+
+.menuHeader nav {
+    display: flex;
+    gap: 80px;
+}
+
+.botonComprar {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  background-color: #7E1616;
+  color: #e8ebeb;
+  padding: 12px 30px;
+  font-size: 20px;
+  border: none;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center 31%; /*para ajustar la foto y que no se corte la imagen*/
+  display: block;
+  border-top: 1px solid #907c8e;
+  border-bottom: 1px solid #907c8e;
+}
+
+.cajasInformacion {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 40px 50px;
+}
+
+.infoSomos, .infoOfrecemos, .infoMeta {
+  flex: 1;
+  border: 1px solid #907c8e;
+  padding: 25px;
+  background-color: #7E1616; /*colores para probar: #7E1616 , #907c8e */
+}
+
+.infoSomos h2, .infoOfrecemos h2, .infoMeta h2 {
+  color: #e8ebeb;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.infoSomos p, .infoOfrecemos p, .infoMeta p {
+  color: #e8ebeb;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 17px;
+}
+
+.pieDePagina {
+  background-color: #030000;
+  padding: 50px 50px 20px 50px;
+  border-top: 1px solid #907c8e;
+}
+
+.footerArriba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logoFooter img {
+  height: 150px;
+  display: block;
+}
+
+.menuFooter {
+  display: flex;
+  gap: 60px;
+}
+
+.iconosGoogleIcons {
+  display: flex;
+  gap: 25px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  font-size: 32px;
+  color: #e8ebeb;
+}
+
+.footerAbajo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e8ebeb; /*linea como hr para separar*/
+  padding-top: 20px;
+}
+
+.footerAbajo p {
+  color: #e8ebeb;
+  margin: 0;
+}
+
+.enlacesFooter {
+  display: flex;
+  gap: 30px;
+}
+
+.footerAbajo a, p{
+  font-size: 10px;
+}
+
+.fotosOfertas {
+  display: flex;
+  gap: 30px;
+  padding: 0 50px 50px 50px;
+}
+
+.ofertas {
+  flex: 1;
+}
+
+.ofertas img{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  object-position: center 20%; /*para ajustar la foto y que no se corte la imagen*/
+  border: 1px solid #907c8e;
+}
